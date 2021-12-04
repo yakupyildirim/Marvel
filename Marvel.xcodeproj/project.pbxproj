@@ -10,7 +10,7 @@
 		745B0C35275BF9B300F9EF41 /* ImageLoader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 745B0C34275BF9B300F9EF41 /* ImageLoader.swift */; };
 		745B0C37275BFB3D00F9EF41 /* AsyncImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 745B0C36275BFB3D00F9EF41 /* AsyncImage.swift */; };
 		745B0C39275C0E9F00F9EF41 /* ImageCache.swift in Sources */ = {isa = PBXBuildFile; fileRef = 745B0C38275C0E9F00F9EF41 /* ImageCache.swift */; };
-		745B0C3B275C124A00F9EF41 /* ImageCacheKey.swift in Sources */ = {isa = PBXBuildFile; fileRef = 745B0C3A275C124A00F9EF41 /* ImageCacheKey.swift */; };
+		745B0C3B275C124A00F9EF41 /* EnvironmentValuesImageCache.swift in Sources */ = {isa = PBXBuildFile; fileRef = 745B0C3A275C124A00F9EF41 /* EnvironmentValuesImageCache.swift */; };
 		74865AF1275AC58400DD3C5B /* MarvelApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74865AE1275AC58200DD3C5B /* MarvelApp.swift */; };
 		74865AF2275AC58400DD3C5B /* MarvelApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74865AE1275AC58200DD3C5B /* MarvelApp.swift */; };
 		74865AF3275AC58400DD3C5B /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74865AE2275AC58200DD3C5B /* ContentView.swift */; };
@@ -37,7 +37,7 @@
 		745B0C34275BF9B300F9EF41 /* ImageLoader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageLoader.swift; sourceTree = "<group>"; };
 		745B0C36275BFB3D00F9EF41 /* AsyncImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AsyncImage.swift; sourceTree = "<group>"; };
 		745B0C38275C0E9F00F9EF41 /* ImageCache.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageCache.swift; sourceTree = "<group>"; };
-		745B0C3A275C124A00F9EF41 /* ImageCacheKey.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageCacheKey.swift; sourceTree = "<group>"; };
+		745B0C3A275C124A00F9EF41 /* EnvironmentValuesImageCache.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EnvironmentValuesImageCache.swift; sourceTree = "<group>"; };
 		74865AE1275AC58200DD3C5B /* MarvelApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MarvelApp.swift; sourceTree = "<group>"; };
 		74865AE2275AC58200DD3C5B /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		74865AE3275AC58300DD3C5B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -84,7 +84,7 @@
 				745B0C34275BF9B300F9EF41 /* ImageLoader.swift */,
 				745B0C36275BFB3D00F9EF41 /* AsyncImage.swift */,
 				745B0C38275C0E9F00F9EF41 /* ImageCache.swift */,
-				745B0C3A275C124A00F9EF41 /* ImageCacheKey.swift */,
+				745B0C3A275C124A00F9EF41 /* EnvironmentValuesImageCache.swift */,
 			);
 			path = AsyncImage;
 			sourceTree = "<group>";
@@ -293,7 +293,7 @@
 				74865AF3275AC58400DD3C5B /* ContentView.swift in Sources */,
 				74865AF1275AC58400DD3C5B /* MarvelApp.swift in Sources */,
 				74865B0C275AC6B600DD3C5B /* Home.swift in Sources */,
-				745B0C3B275C124A00F9EF41 /* ImageCacheKey.swift in Sources */,
+				745B0C3B275C124A00F9EF41 /* EnvironmentValuesImageCache.swift in Sources */,
 				74865B10275AC6F200DD3C5B /* Comics.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
