@@ -6,7 +6,6 @@
 //
 
 import SwiftUI
-import SDWebImageSwiftUI
 
 struct Comics: View {
     @ObservedObject var comicData = ComiciewModel()
@@ -76,8 +75,8 @@ struct ComicRowView:View{
     
     var body: some View{
         HStack(alignment: .top, spacing: 15){
-            WebImage(url: extractImage(data: comic.thumbnail))
-                .resizable()
+            AsyncImage(url: extractImage(data: comic.thumbnail), placeholder: { Text("Loading ...") })
+                //.resizable()
                 .aspectRatio(contentMode: .fill)
                 .frame(width: 150, height: 150)
                 .cornerRadius(8)

@@ -5,6 +5,7 @@
 //  Created by Yakup Yıldırım on 30.11.2021.
 //
 
+
 import Foundation
 
 struct ComicResponse: Codable{
