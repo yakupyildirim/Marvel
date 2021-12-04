@@ -13,6 +13,21 @@
 		74865AF4275AC58400DD3C5B /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74865AE2275AC58200DD3C5B /* ContentView.swift */; };
 		74865AF5275AC58400DD3C5B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 74865AE3275AC58300DD3C5B /* Assets.xcassets */; };
 		74865AF6275AC58400DD3C5B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 74865AE3275AC58300DD3C5B /* Assets.xcassets */; };
+		74865B04275AC62600DD3C5B /* Character.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74865B03275AC62600DD3C5B /* Character.swift */; };
+		74865B06275AC64000DD3C5B /* Comic.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74865B05275AC64000DD3C5B /* Comic.swift */; };
+		74865B08275AC66E00DD3C5B /* CharacterResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74865B07275AC66E00DD3C5B /* CharacterResponse.swift */; };
+		74865B0A275AC68F00DD3C5B /* ComicResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74865B09275AC68F00DD3C5B /* ComicResponse.swift */; };
+		74865B0C275AC6B600DD3C5B /* Home.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74865B0B275AC6B600DD3C5B /* Home.swift */; };
+		74865B0E275AC6DA00DD3C5B /* Characters.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74865B0D275AC6DA00DD3C5B /* Characters.swift */; };
+		74865B10275AC6F200DD3C5B /* Comics.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74865B0F275AC6F200DD3C5B /* Comics.swift */; };
+		74865B12275AC70B00DD3C5B /* WebView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74865B11275AC70B00DD3C5B /* WebView.swift */; };
+		74865B14275AC73000DD3C5B /* ApiClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74865B13275AC73000DD3C5B /* ApiClient.swift */; };
+		74865B16275AC75000DD3C5B /* Credentials.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74865B15275AC75000DD3C5B /* Credentials.swift */; };
+		74865B18275AC76A00DD3C5B /* MarvelDB.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74865B17275AC76A00DD3C5B /* MarvelDB.swift */; };
+		74865B1A275AC78800DD3C5B /* URLHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74865B19275AC78800DD3C5B /* URLHelper.swift */; };
+		74865B1D275AC7DE00DD3C5B /* SDWebImageSwiftUI in Frameworks */ = {isa = PBXBuildFile; productRef = 74865B1C275AC7DE00DD3C5B /* SDWebImageSwiftUI */; };
+		74865B1F275AC82100DD3C5B /* CharacterViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74865B1E275AC82100DD3C5B /* CharacterViewModel.swift */; };
+		74865B21275AC83C00DD3C5B /* ComicViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74865B20275AC83C00DD3C5B /* ComicViewModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +37,20 @@
 		74865AE8275AC58300DD3C5B /* Marvel.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Marvel.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		74865AEE275AC58400DD3C5B /* Marvel.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Marvel.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		74865AF0275AC58400DD3C5B /* macOS.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = macOS.entitlements; sourceTree = "<group>"; };
+		74865B03275AC62600DD3C5B /* Character.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Character.swift; sourceTree = "<group>"; };
+		74865B05275AC64000DD3C5B /* Comic.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Comic.swift; sourceTree = "<group>"; };
+		74865B07275AC66E00DD3C5B /* CharacterResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CharacterResponse.swift; sourceTree = "<group>"; };
+		74865B09275AC68F00DD3C5B /* ComicResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ComicResponse.swift; sourceTree = "<group>"; };
+		74865B0B275AC6B600DD3C5B /* Home.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Home.swift; sourceTree = "<group>"; };
+		74865B0D275AC6DA00DD3C5B /* Characters.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Characters.swift; sourceTree = "<group>"; };
+		74865B0F275AC6F200DD3C5B /* Comics.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Comics.swift; sourceTree = "<group>"; };
+		74865B11275AC70B00DD3C5B /* WebView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebView.swift; sourceTree = "<group>"; };
+		74865B13275AC73000DD3C5B /* ApiClient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ApiClient.swift; sourceTree = "<group>"; };
+		74865B15275AC75000DD3C5B /* Credentials.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Credentials.swift; sourceTree = "<group>"; };
+		74865B17275AC76A00DD3C5B /* MarvelDB.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MarvelDB.swift; sourceTree = "<group>"; };
+		74865B19275AC78800DD3C5B /* URLHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = URLHelper.swift; sourceTree = "<group>"; };
+		74865B1E275AC82100DD3C5B /* CharacterViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CharacterViewModel.swift; sourceTree = "<group>"; };
+		74865B20275AC83C00DD3C5B /* ComicViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ComicViewModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,6 +58,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				74865B1D275AC7DE00DD3C5B /* SDWebImageSwiftUI in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -54,6 +84,10 @@
 		74865AE0275AC58200DD3C5B /* Shared */ = {
 			isa = PBXGroup;
 			children = (
+				74865B02275AC60D00DD3C5B /* Networking */,
+				74865B01275AC5F700DD3C5B /* ViewModel */,
+				74865B00275AC5ED00DD3C5B /* View */,
+				74865AFF275AC5DC00DD3C5B /* Model */,
 				74865AE1275AC58200DD3C5B /* MarvelApp.swift */,
 				74865AE2275AC58200DD3C5B /* ContentView.swift */,
 				74865AE3275AC58300DD3C5B /* Assets.xcassets */,
@@ -78,6 +112,48 @@
 			path = macOS;
 			sourceTree = "<group>";
 		};
+		74865AFF275AC5DC00DD3C5B /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				74865B03275AC62600DD3C5B /* Character.swift */,
+				74865B05275AC64000DD3C5B /* Comic.swift */,
+				74865B07275AC66E00DD3C5B /* CharacterResponse.swift */,
+				74865B09275AC68F00DD3C5B /* ComicResponse.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		74865B00275AC5ED00DD3C5B /* View */ = {
+			isa = PBXGroup;
+			children = (
+				74865B0B275AC6B600DD3C5B /* Home.swift */,
+				74865B0D275AC6DA00DD3C5B /* Characters.swift */,
+				74865B0F275AC6F200DD3C5B /* Comics.swift */,
+				74865B11275AC70B00DD3C5B /* WebView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		74865B01275AC5F700DD3C5B /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				74865B1E275AC82100DD3C5B /* CharacterViewModel.swift */,
+				74865B20275AC83C00DD3C5B /* ComicViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		74865B02275AC60D00DD3C5B /* Networking */ = {
+			isa = PBXGroup;
+			children = (
+				74865B13275AC73000DD3C5B /* ApiClient.swift */,
+				74865B15275AC75000DD3C5B /* Credentials.swift */,
+				74865B17275AC76A00DD3C5B /* MarvelDB.swift */,
+				74865B19275AC78800DD3C5B /* URLHelper.swift */,
+			);
+			path = Networking;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -94,6 +170,9 @@
 			dependencies = (
 			);
 			name = "Marvel (iOS)";
+			packageProductDependencies = (
+				74865B1C275AC7DE00DD3C5B /* SDWebImageSwiftUI */,
+			);
 			productName = "Marvel (iOS)";
 			productReference = 74865AE8275AC58300DD3C5B /* Marvel.app */;
 			productType = "com.apple.product-type.application";
@@ -142,6 +221,9 @@
 				Base,
 			);
 			mainGroup = 74865ADB275AC58200DD3C5B;
+			packageReferences = (
+				74865B1B275AC7DE00DD3C5B /* XCRemoteSwiftPackageReference "SDWebImageSwiftUI" */,
+			);
 			productRefGroup = 74865AE9275AC58300DD3C5B /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -176,8 +258,22 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				74865B18275AC76A00DD3C5B /* MarvelDB.swift in Sources */,
+				74865B1F275AC82100DD3C5B /* CharacterViewModel.swift in Sources */,
+				74865B14275AC73000DD3C5B /* ApiClient.swift in Sources */,
+				74865B04275AC62600DD3C5B /* Character.swift in Sources */,
+				74865B12275AC70B00DD3C5B /* WebView.swift in Sources */,
+				74865B06275AC64000DD3C5B /* Comic.swift in Sources */,
+				74865B21275AC83C00DD3C5B /* ComicViewModel.swift in Sources */,
+				74865B0A275AC68F00DD3C5B /* ComicResponse.swift in Sources */,
+				74865B0E275AC6DA00DD3C5B /* Characters.swift in Sources */,
+				74865B1A275AC78800DD3C5B /* URLHelper.swift in Sources */,
+				74865B16275AC75000DD3C5B /* Credentials.swift in Sources */,
+				74865B08275AC66E00DD3C5B /* CharacterResponse.swift in Sources */,
 				74865AF3275AC58400DD3C5B /* ContentView.swift in Sources */,
 				74865AF1275AC58400DD3C5B /* MarvelApp.swift in Sources */,
+				74865B0C275AC6B600DD3C5B /* Home.swift in Sources */,
+				74865B10275AC6F200DD3C5B /* Comics.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -446,6 +542,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		74865B1B275AC7DE00DD3C5B /* XCRemoteSwiftPackageReference "SDWebImageSwiftUI" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/SDWebImage/SDWebImageSwiftUI.git";
+			requirement = {
+				branch = master;
+				kind = branch;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		74865B1C275AC7DE00DD3C5B /* SDWebImageSwiftUI */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 74865B1B275AC7DE00DD3C5B /* XCRemoteSwiftPackageReference "SDWebImageSwiftUI" */;
+			productName = SDWebImageSwiftUI;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 74865ADC275AC58200DD3C5B /* Project object */;
 }
